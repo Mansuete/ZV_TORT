@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+	<div class="all">
+		<input checked type="radio" name="respond" id="desktop">
+			<article id="slider">
+					<input checked type="radio" name="slider" id="switch1">
+					<input type="radio" name="slider" id="switch2">
+					<input type="radio" name="slider" id="switch3">
+					<input type="radio" name="slider" id="switch4">
+					<input type="radio" name="slider" id="switch5">
+				<div id="slides">
+					<div id="overflow">
+						<div class="image">
+							<article><img src="{% static 'img/1.jpg' %}"></article>
+							<article><img src="{% static 'img/2.jpg' %}"></article>
+							<article><img src="{% static 'img/3.jpg' %}"></article>
+							<article><img src="{% static 'img/4.jpg' %}"></article>
+							<article><img src="{% static 'img/5.jpg' %}"></article>
+						</div>
+					</div>
+				</div>
+				<div id="controls">
+					<label for="switch1"></label>
+					<label for="switch2"></label>
+					<label for="switch3"></label>
+					<label for="switch4"></label>
+					<label for="switch5"></label>
+				</div>
+				<div id="active">
+					<label for="switch1"></label>
+					<label for="switch2"></label>
+					<label for="switch3"></label>
+					<label for="switch4"></label>
+					<label for="switch5"></label>
+				</div>
+			</article>
+	</div>
+
+    <div class="section section1">
+            <div class="fone2">
+                <img class="fon-img2" src="{% static 'img/intrigue.gif' %}">
+            </div>
+            <div class="fone3">
+                <img class="fon-img2" src="{% static 'img/intrigue.gif' %}">
+            </div>
+    <div class="fone4">
+                <img class="fon-img2" src="{% static 'img/intrigue.gif' %}">
+            </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center">
+                        Новые поступления
+                    </h1>
+                </div>
+                {% for product_image in products_images %}
+                    {% include 'landing/product_item.html' %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="section section-delivery">
+        <div>
+            <h3>Free shipping</h3>
+        </div>
+    </div>
+    <div class="section section2 phones-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center">
+                       День Рождения
+                    </h1>
+                </div>
+                {% for product_image in products_images_marryed %}
+                    {% include 'landing/product_item.html' %}
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+    <div class="section section3 laptops-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center">
+                        Свадебные
+                    </h1>
+                </div>
+                {% for product_image in products_images_birth %}
+                    {% include 'landing/product_item.html' %}
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+
+{%  endblock content %}
+

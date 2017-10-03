@@ -1,0 +1,75 @@
+.left-head-text{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-right: -37px;
+    }
+.right-head-text{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: -60px;
+    }
+.logo{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.logo span{
+    border-bottom: solid 4px #f2bc2a
+}
+.logo:before{
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 44px;
+    height: 1px;
+    top: 16px;
+    left: 60px;
+}
+.logo:after{
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 44px;
+    height: 1px;
+    top: 16px;
+    right: 56px;
+}
+.head-row{
+    margin-bottom: 10px;
+}
+.main{
+    background: url("../img/test/main_bg.jpg") no-repeat center center ;
+    background-size: cover;
+}
+.dev-cake{
+    height: 887px;
+    margin-right: 180px;
+}
+.devis{
+    text-align: center;
+}
+ul.list-inline{
+    background: url("../img/test/mainMenuBg.png")no-repeat center center;
+    background-size: cover;
+}
+ul.list-inline a {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 25px 10px 55px 10px;
+    margin-left: 65px;
+    color: #0f0f0f;
+
+}
+ul.list-inline a:hover{
+    text-decoration: none;
+    color: green;
+}
+

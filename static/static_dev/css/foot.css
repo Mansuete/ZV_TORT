@@ -1,0 +1,88 @@
+
+/*------------------------------------------------right--------------------*/
+
+/*------------------------------------------------body2--------------------*/
+
+/*------------------------------------------------body--------------------*/
+
+/*------------------------------------------------footer--------------------*/
+#footer{
+	width:100%;
+	height:75px;
+	margin:0 auto;
+	background:url(footer_bg.gif) 0 0 repeat-x;
+	padding:17px 0 0 18px;
+	z-index: 1;
+}
+#footer ul.botLink{
+	float:right;
+	padding:0 8px 0 0;
+}
+#footer ul.botLink li{
+	float:left;
+	font:normal 11px/11px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:inherit;
+	display:block;
+}
+#footer ul.botLink li a{
+	color:#fff;
+	background-color:inherit;
+	text-decoration:none;
+	float:left;
+	margin:0 7px;
+}
+#footer ul.botLink li a:hover{
+	color:#E9E617;
+	background-color:inherit;
+}
+#footer ul.botLink2{
+	float:right;
+	width:145px;
+	height:20px;
+	padding:10px 17px 0 280px;
+}
+#footer ul.botLink2 li{
+	float:left;
+}
+#footer ul.botLink2 li a.css{
+	display:block;
+	background:url(css_bg.gif) 0 0 no-repeat;
+	width:69px;
+	height:20px;
+	float:left;
+	margin:0 6px 0 0;
+}
+#footer ul.botLink2 li a.css:hover{
+	background:url(css_bg_hover.gif) 0 0 no-repeat;
+}
+
+#footer p.copy{
+	float:left;
+	width:340px;
+	font:normal 10px/10px Arial, Helvetica, sans-serif;
+	color:#CDD2A1;
+	background-color:inherit;
+	padding:0 0 10px 0;
+}
+#footer p.design{
+	float:left;
+	width:175px;
+	font:bold 11px/11px Arial, Helvetica, sans-serif;
+	color:#F72F2F;
+	background-color:inherit;
+	padding:4px;
+}
+#footer p.design a{
+	font:bold 11px/11px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:inherit;
+	text-decoration:none;
+	padding:2px;
+	
+}
+#footer p.design a:hover{
+	color:#fff;
+	background-color:#F72F2F;
+}
+/*------------------------------------------------footer--------------------*/
