@@ -1,0 +1,506 @@
+/*============    ШРИФТЫ    ===========*/
+
+@font-face {
+			font-family: "IntroRegular";
+			src: url("../fonts/IntroRegular/IntroRegular.eot");
+			src: url("../fonts/IntroRegular/IntroRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/IntroRegular/IntroRegular.woff") format("woff"),
+			url("../fonts/IntroRegular/IntroRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+@font-face {
+		font-family: "IntroInline";
+		src: url("../fonts/IntroInline/IntroInline.eot");
+		src: url("../fonts/IntroInline/IntroInline.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/IntroInline/IntroInline.woff") format("woff"),
+		url("../fonts/IntroInline/IntroInline.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
+
+.InLine{
+	font-family: "IntroInline";
+}
+.Regular{
+	font-family: "IntroRegular";
+}
+
+
+/*===================    Для всего    ==================*/
+.main-mn {
+	background: url(../img/main_bg.jpg) 50% 0 no-repeat,
+	 url(../img/01_pattern.jpg) 50% 50% repeat; 	 	
+	 .center-fix{
+		width: 920px;
+		margin-left: 19%;
+	}
+	.header{
+		margin-bottom: 30px;
+		color: #fff;
+	}
+	.header-text-right{
+		text-align: right;
+		margin-top: 14px;
+		h5{
+			margin-right: 69px;
+    		padding-top: 1px;
+	    	
+		}
+		
+
+
+	}
+	.header-text-left{
+		text-align: left;
+		margin-top: 14px;
+		&:before{
+				content: '';
+			    position: absolute;
+			    width: 14px;
+			    height: 14px;
+			    background: url(../img/headerPhone.png) 0 0 no-repeat;
+			    top: 15px;
+    			left: 66px;
+			}
+		.Regular;
+		h5{
+			margin-left: 69px;
+    		padding-top: 1px;
+		}
+
+	}
+	.header-text-center{
+		text-align: center;
+		text-transform: uppercase;
+		.Regular;
+		span{
+		    	border-bottom: solid 4px #f2bc2a; 
+		    }
+		&:after{
+			content: '';
+		    position: absolute;
+		    background: #fff;
+		    width: 44px;
+		    height: 1px;
+		    top: 32px;
+		    left: -59px;
+		   
+		}
+		&:before{
+			content: '';
+		    position: absolute;
+		    background: #fff;
+		    width: 44px;
+		    height: 1px;
+		    top: 32px;
+		    right: -59px;
+		}
+		
+	}
+	.menu-img{
+		background: url(../img/mainMenuBg.png) no-repeat center center;
+		background-size: cover;
+	}
+	.show-navPos,
+	.show-winPos {
+	  position:fixed;
+	  top:10px;
+	  right:10px;
+	  background:red;
+	  color:#fff;
+	  
+	}
+
+	.show-winPos {
+	  background-color: blue;
+	  top:50px;
+	  
+	}
+
+
+	.fixed {
+	  position:fixed;
+	  top:0;
+	  left:0;
+	  width: 100%;
+	  height: 70px;
+	  z-index: 9999;
+	  background-color: #fff;
+	}
+
+	.shadow {
+	  -webkit-box-shadow: 0px 7px 17px -2px rgba(117,117,117,1);
+	   -moz-box-shadow: 0px 7px 17px -2px rgba(117,117,117,1);
+	   box-shadow: 0px 7px 17px -2px rgba(117,117,117,1);
+	}
+
+	.list-inline{
+		margin-left: -63px;
+		
+	}
+	a{
+		display: inline-block;
+		text-transform: uppercase;
+	    padding: 25px 10px 55px 10px;
+	    margin-left: 65px;
+	    color: #0f0f0f;
+	}
+	.mainPhoto{
+		    margin: -33px auto 625px;
+	}
+	.topDesctip{
+	}h2{
+		color: #4a4a4a;
+		.Regular;
+		margin-bottom: 70px
+	}
+	.mid-description{
+			text-align: center;
+		    width: 95%;
+		    p{
+			    &:before{
+				content: '';
+			    position: absolute;
+			    background: #f4cb3d;
+			    height: 2px;
+			    width: 180px;
+			    top: -40px;
+			    left: 50%;
+			    margin-left: -90px;
+			   }
+			   &:after{
+			    content: '';
+			    position: absolute;
+			    background: #f4cb3d;
+			    height: 2px;
+			    width: 180px;
+			    left: 50%;
+			    margin-left: -90px;
+			    margin-top: 40px;
+			    bottom:0
+			    }
+			}
+			.col-md-4{
+				height: 200px
+			}
+		  }
+
+		  .topbotDescrip{
+		  	text-align: center;
+		    width: 97%;
+		    margin-bottom: 10px;
+		    margin-top: 58px
+
+
+		  }
+		  .bottomDescrip{
+		  	margin-right: 35px;
+		  }
+
+		 .bot-text{
+		 	text-align: center;
+		 	margin-right: 37px;
+		    // margin: 0 auto 2px;
+		    text-align: center;
+		    font-family: 'PT Serif';
+		    color: #333;
+		    font-style: italic;
+		 h5{
+		 	font-size: 20px;
+		 
+		 	}a{
+		 		position: relative;
+		 		text-align: center;
+		 		margin: 37px;
+		 		margin-top: 0;
+		 		margin-bottom: -23px;
+		 	}	
+		}
+		 .type-torts{
+		 	margin-right:90px;
+		  	
+		  		ul{
+				 	text-align: center;
+				 }
+				 	li{
+				 	display: inline-block;
+					text-transform: uppercase;
+				    padding: 25px 0px 55px  0px;
+				    margin-left: 19px;
+				    color: #0f0f0f;
+				    font-size: 10px;	
+			}
+		}
+	.second{
+		padding-top: 122px;
+		background: #fff;
+		width: 100%;
+		h2{
+			margin: 0;
+			padding-bottom: 58px;
+		}
+		.etaps{
+			 margin-bottom: 37px;
+		}
+		p{
+			font-size: 13px;
+		}
+	}
+	.third{
+		background-color: #fff;
+		width: 100%;
+		h2{
+			margin: 100px 0 50px 0;
+			font-size: 26px;
+		}
+		p{
+		text-align: center;
+	    font-style: italic;
+	    display: block;
+	    width: 760px;
+	    margin: 0 auto;
+	    font-size: 13px;
+		}
+		a{
+			margin-right: 69px;
+			margin-bottom: -99px;
+		}
+		
+		.fotorama{
+			margin-bottom: 150px;
+			margin-left: 35%;
+			margin-top: 50px;
+		}
+		
+
+	}
+
+
+	.four{
+		background: url(../img/02_pattern.jpg) 50% 100% repeat;
+		width: 100%;
+		h3{
+			text-transform: uppercase;
+			color: #4a4a4a;
+		    font-size: 24px;
+		    line-height: 24px;
+		    margin: 100px auto 22px;
+		    width: 300px;
+		    text-align: center;
+		    font-family: 'Intro';
+		    letter-spacing: 1px;
+		    .Regular
+
+		}
+		p{
+			font-style: italic;
+		    font-family: 'PT Serif';
+		    text-align: center;
+		    margin: 0 auto;
+		    font-size: 19px;
+		    width: 325px;
+		    color: #595959;
+		}
+	}.form{
+		width: 640px;
+		height: 423px;
+		background-color: #fff;
+		margin: 25px auto 250px auto;
+		text-align: center;
+		padding-top: 62px;
+		input[type="text"],input[type="phone"]{
+			width: 300px;
+			height: 50px;
+			font-size: 18px;
+			margin-bottom: 15px;
+			border-radius: 4px;
+			padding-left: 10px;
+			margin-top: 10px;
+			border: none;
+			border-bottom: solid 1px orange;
+			outline:none;
+			}
+	}.dws-input{
+		&:before{
+			content: "Ваше имя*";
+			position: relative;
+			padding: 10px 0 0 7px;
+			font-size: 11px;
+		}&:nth-child(2)::before{
+			content: "Номер телефона*";
+		}&:nth-child(3)::before{
+			content: "Опишите ваш торт";
+			left: 87px;
+			float: left;
+		}
+	}.fix{
+		padding-right: 30px;
+	}textarea{
+		width: 300px;
+		height: 97px;
+		border: none;
+		border-bottom: solid 1px orange;
+		margin-right: 29px;
+		outline:none;
+		resize:none;
+		
+	}button{
+		width: 180px;
+		height: 60px;
+		position: absolute;
+		background: #a13d3d;
+		border: none;
+		color: #fff;
+		font-size: 20px;
+		text-transform: uppercase;
+		.Regular
+		
+		// bottom: -30px;
+	 //    left: 50%;
+	 //    margin-left: -91px;
+	}.form-button{
+	    position: absolute;
+	    left: 46%;
+	    margin-top: 80px;
+	}
+	footer{
+		padding-top: 50px;
+		padding-bottom: 10px;
+		background-color: #666666;
+		color: #fff;
+		h2{
+			margin-left: -15px;
+			text-transform: uppercase;
+			color: #fff;
+			.Regular			
+
+		}
+		address{
+			margin-top: 10px;
+			p#address{
+				text-transform: uppercase;
+				margin-bottom: 0;
+				
+				&:before{
+					content: '';
+					width: 16px;
+					height: 16px;
+					background: url(../img/mapmark.png) no-repeat center center;
+					display: inline-block;
+					vertical-align: middle;
+					margin-bottom: 3px;
+				}
+			}
+		}.social{
+			color: #fff;
+			font-size: 30px;
+			width: 30px;
+			padding: 15px;
+			display: inline;
+			text-align: center;
+			margin-left: 10px;
+			i:hover{
+				background-color: #fff;
+				color: #1a394f;
+				border-radius: 5px;
+				cursor: pointer;
+				width: 35px;
+				
+				
+			}i{
+				width: 35px;
+			}a{
+				margin: 0;
+				color: #fff;
+			}
+		}
+
+		p#zven{
+			font-size: 15px;
+			margin-top: 0;
+			.Regular;
+
+		}
+	}
+	p#phone_footer{
+		margin-bottom: 0;
+		text-transform: uppercase;
+		&:before{	
+			content: '';
+			width: 16px;
+			height: 16px;
+			background: url(../img/phone_foot.png) no-repeat center center;
+			display: inline-block;
+			vertical-align: middle;
+			margin-bottom: 3px;
+		}
+	}.copyright{
+		p{
+			padding-top: 36px;
+		}
+	}.parallax-container {
+    min-height: 400px;
+    padding: 300px;
+    background: transparent;
+
+	}.four_icon{
+		    position: relative;
+		    left: -2%;
+		    height: 0px;
+		    margin-top: 0px;
+			}
+	
+	
+}
+
+
+/*=================    Главный екран    ================*/
+
+
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ПОДВАЛ    ===========*/
+
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+
+/*============    	АДАПТИВ    ===========*/
+
+@media(min-width:0px) and (max-width:320px) {
+	
+}
+
+@media(min-width:321px) and (max-width:480px) {
+	
+}
+
+@media(min-width:481px) and (max-width:768px) {
+	
+}
+
+@media(min-width:769px) and (max-width:992px) {
+	
+}
+
+@media(min-width:993px) and (max-width:1200px) {
+	
+}
+
+
+
